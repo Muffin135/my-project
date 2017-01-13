@@ -74,6 +74,7 @@ a:active {
     height: 200px;
     width: 200px; 
     margin-left: -475px;
+    margin-bottom:-300px;
   }
   .text {
     display: inline-block;
