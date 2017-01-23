@@ -88,5 +88,6 @@ a:active {
   }
  #read {
   margin-left: 1325px;
+  display: inline-block; 
 }
        
