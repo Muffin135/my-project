@@ -39,12 +39,16 @@
 }
 a:visited {
   color:white;
+  text-decoration: none;
 }
 a:link {
   color:white;
 }
 a:hover {
   color: pink;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-style: dashed; 
 }
 a:active {
   color:white;
