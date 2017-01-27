@@ -16,6 +16,7 @@
   padding-top:50px;
   padding-left:70px;
 }
+<!-- Default menu entry -->
 .menu {
  font-family: impact;
   font-size: 30px;
@@ -27,6 +28,7 @@
   margin-left: 10px;
   margin-top:70px;
 }
+<!-- First tab on menu -->
 .menufront {
  font-family: impact;
   font-size: 30px;
@@ -53,6 +55,7 @@ a:hover {
 a:active {
   color:white;
 }
+<!-- Title for Page that is visible --> 
 #album {
    font-family: impact;
   font-size: 70px;
@@ -60,10 +63,9 @@ a:active {
   padding-top:30px;
   padding-left:500px;
   }
+<!-- Default structure for posts and entries on blog --> 
   .entry {
    font-family: Arial;
-  font-size: 15px;
-  color:white;
   padding-top:30px;
   padding-left:500px;
   border-top: 3px solid white;
