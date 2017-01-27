@@ -45,15 +45,17 @@ a:visited {
 }
 a:link {
   color:white;
+  text-decoration: none;
 }
 a:hover {
-  color: pink;
+  color: #fc6caf;
   text-decoration: underline;
   text-decoration-color: yellow;
   text-decoration-style: dashed; 
 }
 a:active {
   color:white;
+  text-decoration: none;
 }
 <!-- Title for Page that is visible --> 
 #album {
