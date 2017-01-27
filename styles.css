@@ -40,17 +40,25 @@
 }
 a:visited {
   color:white;
+  font-family: impact;
+  font-size: 30px;
 }
 a:link {
   color:white;
+  font-family: impact;
+  font-size: 30px;
 }
 a:hover {
+  font-family: impact;
+  font-size: 30px;
   color: #fc6caf;
   text-decoration: underline;
   text-decoration-color: yellow;
   text-decoration-style: dashed; 
 }
 a:active {
+  font-family: impact;
+  font-size: 30px;
   color:white;
 }
 
