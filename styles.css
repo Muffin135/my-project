@@ -16,6 +16,7 @@
   padding-top:50px;
   padding-left:70px;
 }
+/*Default menu entry */
 .menu {
  font-family: impact;
   font-size: 30px;
@@ -27,7 +28,7 @@
   margin-left: 10px;
   margin-top:70px;
 }
-
+/*Bookend for menu bar*/ 
 .menufront {
   font-family: impact;
   font-size: 30px;
@@ -61,7 +62,7 @@ a:active {
   font-size: 30px;
   color:white;
 }
-
+/* Title for webpages */
 #album {
    font-family: impact;
   font-size: 70px;
@@ -69,7 +70,7 @@ a:active {
   padding-top:30px;
   padding-left:500px;
   }
-
+/*Journal entry structure */
   .entry {
    font-family: Arial;
   padding-top:30px;
