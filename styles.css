@@ -40,11 +40,9 @@
 }
 a:visited {
   color:white;
-  text-decoration: none;
 }
 a:link {
   color:white;
-  text-decoration: none;
 }
 a:hover {
   color: #fc6caf;
@@ -54,7 +52,6 @@ a:hover {
 }
 a:active {
   color:white;
-  text-decoration: none;
 }
 
 #album {
