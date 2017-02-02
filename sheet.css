@@ -4,14 +4,14 @@
 }
 
 #title {
-  font-family: impact;
+  font-family: Impact;
   font-size: 60px;
   color:white;
   margin-top:50px;
   margin-left:200px;
 }
 #intro {
-  font-family: impact;
+  font-family: Impact;
   font-size: 45px;
   color:white;
   padding-top:50px;
@@ -19,7 +19,7 @@
 }
 /*Default menu entry */
 .menu {
- font-family: impact;
+ font-family: Impact;
   font-size: 30px;
   color:white;
   border-bottom: 2px solid white;
@@ -31,7 +31,7 @@
 }
 /*Bookend for menu bar*/ 
 .menufront {
-  font-family: impact;
+  font-family: Impact;
   font-size: 30px;
   color:white;
   border-bottom: 2px solid white;
@@ -42,16 +42,16 @@
 }
 a:visited {
   color:white;
-  font-family: impact;
+  font-family: Impact;
   font-size: 30px;
 }
 a:link {
   color:white;
-  font-family: impact;
+  font-family: Impact;
   font-size: 30px;
 }
 a:hover {
-  font-family: impact;
+  font-family: Impact;
   font-size: 30px;
   color: #fc6caf;
   text-decoration: underline;
@@ -59,13 +59,13 @@ a:hover {
   text-decoration-style: dashed; 
 }
 a:active {
-  font-family: impact;
+  font-family: Impact;
   font-size: 30px;
   color:white;
 }
 /* Title for webpages */
 #album {
-   font-family: impact;
+   font-family: Impact;
   font-size: 70px;
   color:white;
   padding-top:30px;
