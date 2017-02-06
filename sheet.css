@@ -52,7 +52,7 @@ a:link {
 a:hover {
   font-family: Impact;
   font-size: 30px;
-  color: #fc6caf;
+  color: black;
   text-decoration: underline;
   background-color: yellow;
 }
