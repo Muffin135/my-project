@@ -100,7 +100,7 @@
     
     <div class="entry">
       <div class="text">
-        Challenge #3
+        Challenge #3: This code was based off of the code from Challenge 1. In that sense, we kept the "for" loop as a way of repeating the light pattern without having to hard code the pattern, which would have been prohibitively long due to the length requires for the light show. In order to measure the number of times the loop repeated, we used the variable "i" as a reference point from which to begin the pattern. Then we used a "for" loop with a combination of (0, 31, 1) to get the pattern to run 30 times, each time increasing the varaible "i" to keep track of the number of loops. For the pattern itself, we used 3 GPIO pins to control 3 lights on the board, which flashed in a pattern consisting of one long sequence of short flashes followed by a shorter sequence consisting of long, sustained flashes. To play music, we used the onboard "pygame" library to insert a media player. All that was need was to write "import pygame" in the import section, then before the "for" loop began insert 3 lines: one initializing the player (.mixer.init), load up the audio file (.music.load), then run the player (.music.play).
       </div>
       <div class="entryphoto"> 
         <img src="https://cloud.githubusercontent.com/assets/23199807/23334725/e6007f48-fb59-11e6-9c3c-4df1d7876f94.gif"/>
