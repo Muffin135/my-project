@@ -1,26 +1,26 @@
   body {
- background-color:white;
+ background-color:black;
   
 }
 
 #title {
   font-family: Impact;
   font-size: 60px;
-  color: black;
+  color: pink;
   margin-top:50px;
   margin-left:200px;
 }
 #intro {
   font-family: Impact;
   font-size: 45px;
-  color:black;
+  color:pink;
   padding-top:50px;
   padding-left:70px;
 }
 .menu {
  font-family: Impact;
   font-size: 30px;
-  color:white;
+  color:pink;
   border-bottom: 2px solid white;
   height:100px;
   width:200px;
@@ -32,7 +32,7 @@
 .menufront {
   font-family: Impact;
   font-size: 30px;
-  color:black;
+  color:pink;
   border-bottom: 2px solid black;
   height:100px;
   width:200px;
@@ -40,32 +40,32 @@
   margin-left: 100px;
 }
 a:visited {
-  color:black;
+  color:pink;
   font-family: Impact;
   font-size: 30px;
 }
 a:link {
-  color:black;
+  color:pink;
   font-family: Impact;
   font-size: 30px;
 }
 a:hover {
   font-family: Impact;
   font-size: 30px;
-  color: black;
+  color: pink;
   text-decoration: underline;
   background-color: yellow;
 }
 a:active {
   font-family: Impact;
   font-size: 30px;
-  color:black;
+  color:pink;
 }
 /* Title for webpages */
 #album {
    font-family: Impact;
   font-size: 70px;
-  color: black;
+  color: pink;
   padding-top:30px;
   padding-left:500px;
   }
@@ -74,8 +74,8 @@ a:active {
    font-family: Arial;
   padding-top:30px;
   padding-left:500px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid pink;
+  border-bottom: 3px solid pink;
   height: 300px;
   width:300px;
   margin-left: 100px;
@@ -83,7 +83,7 @@ a:active {
   font-size: 10px;
   }
    .entryphoto {
-    background-color: white;
+    background-color: black;
     height: 200px;
     width: 200px; 
     margin-left: -470px;
@@ -93,11 +93,11 @@ a:active {
   .text {
     width: 520px;
     height: 275px; 
-    background-color: white;
+    background-color: black;
     margin-left:-250px;
     margin-bottom:-300px;
     padding-bottom: -50px;
-    color: black;
+    color: pink;
     font-size: 10px; 
   }
  #read {
