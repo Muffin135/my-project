@@ -60,3 +60,24 @@ body {
   color: white;
   display: inline-block;
 }
+
+.title {
+width: 95%; 
+height: 10%;
+background-color: white;
+border-radius: 25px;
+border-left: 25px solid #22C0DC;
+font-size: 300%;
+font-family: Impact;
+}
+
+.title:hover {
+  animation-name: example; 
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: #22C0DC;}
+}
+
