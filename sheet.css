@@ -1,114 +1,43 @@
   body {
- background-color:black;
-  
+ height: 100vh;
+ width: 100%;
+ background-color: grey;
+ font-size: 5px;
 }
 
-#title {
-  font-family: Impact;
-  font-size: 60px;
-  color: pink;
-  margin-top:50px;
-  margin-left:200px;
+.oneblock {
+ background-color:yellow; 
+ width: 50%;
+ height: 30%;
+ display: inline-block;
+ font-size: 1000%;
 }
-#intro {
-  font-family: Impact;
-  font-size: 45px;
-  color:pink;
-  padding-top:50px;
-  padding-left:70px;
+
+.twoblock {
+ background-color: pink; 
+ width: 30%;
+ height: 30%;
+ display: inline-block;
 }
-.menu {
- font-family: Impact;
-  font-size: 30px;
-  color:pink;
-  border-bottom: 2px solid white;
-  height:100px;
-  width:200px;
-  display: inline-block;
-  margin-left: 10px;
-  margin-top:70px;
+
+.threeblock {
+ background-color: orange; 
+ width: 19%;
+ height: 30%;
+ display: inline-block;
 }
-/*Bookend for menu bar*/ 
-.menufront {
-  font-family: Impact;
-  font-size: 30px;
-  color:pink;
-  border-bottom: 2px solid black;
-  height:100px;
-  width:200px;
-  display: inline-block;
-  margin-left: 100px;
+
+.fourblock {
+ background-color: white; 
+ width: 50%;
+ height: 70%;
+ display: inline-block;
 }
-a:visited {
-  color:pink;
-  font-family: Impact;
-  font-size: 30px;
-}
-a:link {
-  color:pink;
-  font-family: Impact;
-  font-size: 30px;
-}
-a:hover {
-  font-family: Impact;
-  font-size: 30px;
-  color: pink;
-  text-decoration: underline;
-  background-color: yellow;
-}
-a:active {
-  font-family: Impact;
-  font-size: 30px;
-  color:pink;
-}
-/* Title for webpages */
-#album {
-   font-family: Impact;
-  font-size: 70px;
-  color: pink;
-  padding-top:30px;
-  padding-left:500px;
-  }
-/*Journal entry structure */
-  .entry {
-   font-family: Arial;
-  padding-top:30px;
-  padding-left:500px;
-  border-top: 3px solid pink;
-  border-bottom: 3px solid pink;
-  height: 300px;
-  width:300px;
-  margin-left: 100px;
-  margin-top: 100px;
-  font-size: 10px;
-  }
-   .entryphoto {
-    background-color: black;
-    height: 200px;
-    width: 200px; 
-    margin-left: -470px;
-    margin-top: 25px;
-    display: inline-block;
-  }
-  .text {
-    width: 520px;
-    height: 275px; 
-    background-color: black;
-    margin-left:-250px;
-    margin-bottom:-300px;
-    padding-bottom: -50px;
-    color: pink;
-    font-size: 10px; 
-  }
- #read {
-  margin-left: 1325px;
- 
-}
-#home {
-  border: 6px solid black;
-  border-radius: 55%;
-  height: 230px;
-  width: 230px;
-  margin-left: 610px;
+
+.fiveblock {
+ background-color: black; 
+ width: 49%;
+ height: 70%;
+ display: inline-block;
 }
 
