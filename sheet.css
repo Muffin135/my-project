@@ -1,63 +1,53 @@
  body {
-  width: 95%;
-	height: 95%;
+  width: 100vw;
+  height: 100vh;
 	background-color: grey;
 }
 
+.container {
+ height: 100%;
+ width: 100%;
+ color: blue;
+ font-family: Impact, Calibri;
+ text-align: center;
+}
+
 .oneblock {
- background-color:yellow; 
+ background-color: yellow;
  width: 50%;
- min-height: 30%;
+ height: 30%;
  display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
- color:orange;
+ float: left;
 }
 
 .twoblock {
- background-color: pink; 
+ background-color: pink;
  width: 30%;
- min-height: 30%;
+ height: 30%;
  display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
- color:pink;
+ 
 }
 
 .threeblock {
- background-color: orange; 
- width: 19%;
- min-height: 30%;
- display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
- color:orange;
+ background-color: orange;
+ width: 20%;
+ height: 30%;
+ display: inline-block; 
+ float: right;
 }
 
 .fourblock {
- background-color: white; 
- width: 50%;
- height: 70%;
- display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
+  background-color: white;
+  width: 50%;
+  height: 70%;
+  display: inline-block; 
+  float: left;
 }
-
 .fiveblock {
- background-color: black; 
- width: 49%;
- height: 70%;
- display: inline-block;
- font-family: Harrow, Impact;
- font-size: 30px;
- color: white;
+  background-color: black;
+  width: 50%;
+  height: 70%;
+  display: inline-block; 
+  float: right;
 }
 
-
-p {
- padding-top: 80px;
-}
-
-.bottom {
-  padding-top: 250px;
-}
