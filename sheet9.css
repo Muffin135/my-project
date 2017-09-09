@@ -25,6 +25,8 @@ body {
   margin-left: 5%;
   border-left: 0.75em solid gold; 
   border-radius: 10px;
+  overflow: hidden;
+  display: inline-flex;
 }
 
 .halfbodymedium:hover {
