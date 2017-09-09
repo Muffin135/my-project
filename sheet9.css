@@ -1,0 +1,76 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+	background-color: white;
+}
+
+.fullwidthtitle {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  float: left;
+  font-family: impact;
+  color: white;
+  font-size: 300%;
+  text-align: center;
+  letter-spacing: 0.25em;
+}
+
+.halfbodymedium {
+  width: 9%;
+  height: 50vh;
+  background-color: black;
+  float: left;
+  margin-top: 2.5%;
+  margin-left: 5%;
+  border-left: 0.75em solid gold; 
+  border-radius: 10px;
+}
+
+.halfbodymedium:hover {
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 2s; 
+}
+
+.fullwidthtitle:hover {
+  -webkit-animation-name: title; 
+  -webkit-animation-duration: 2s; 
+}
+
+.tabtitle {
+  color: white;
+  margin-left: 5%;
+  font-family: impact;
+  letter-spacing: 0.25em;
+}
+
+@-webkit-keyframes example {
+    from {width: 10%;}
+    to {width: 15%;}
+}
+
+@-webkit-keyframes title {
+    from {letter-spacing: 0.25em;}
+    to {letter-spacing: .5em;}
+}
+
+#one {
+  border-color: red;
+}
+
+#two{
+  border-color: blue;
+}
+
+#three{
+  border-color: green;
+}
+
+#four {
+  border-color: orange;
+}
+
+#five {
+  border-color: purple;
+}
+
