@@ -7,13 +7,13 @@ body {
 div {
  background-color: pink; 
  width: 10vw;
- height: 75vh;
+ height: 100vh;
 }
  
  @media only screen and (max-width: 800px) {
     div {
-        width: 75vw;
-		height: 10vh;
+        width: 100vw;
+	height: 10vh;
     }
 }
 
