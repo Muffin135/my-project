@@ -3,19 +3,19 @@ body {
 	min-width: 20vw;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1000px) {
     .kitten {
         content:url(https://user-images.githubusercontent.com/23199807/30504032-7dec2986-9a21-11e7-830f-a1ec809a4ee1.png);
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
     .kitten {
         content:url(https://user-images.githubusercontent.com/23199807/30504250-8074507e-9a22-11e7-9623-d7cc6fadea92.png);
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     .kitten {
         content:url(https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png);
     }
