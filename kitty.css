@@ -27,6 +27,6 @@ body {
 
 @media only screen and (max-width: 400px) {
     .kitten {
-        content:url(images/kittyloaf.gif);
+        content:url(https://user-images.githubusercontent.com/23199807/30504322-eac0f3f6-9a22-11e7-8b5e-3068638be92d.gif);
     }
 }
