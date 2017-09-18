@@ -1,7 +1,7 @@
 
 body {
 	min-width: 20vw;
-	background-image: url(https://user-images.githubusercontent.com/23199807/30565015-ad7dcd24-9c7b-11e7-8e64-e4addb6a31d4.gif);
+	background-image:url(https://user-images.githubusercontent.com/23199807/30565015-ad7dcd24-9c7b-11e7-8e64-e4addb6a31d4.gif);
 }
 
 @media only screen and (min-width: 801px) {
