@@ -3,7 +3,7 @@ body {
 	min-width: 20vw;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 801px) {
     .kitten {
         content:url(https://user-images.githubusercontent.com/23199807/30504032-7dec2986-9a21-11e7-830f-a1ec809a4ee1.png);
     }
