@@ -20,11 +20,13 @@ body {
 @media only screen and (max-width: 600px) {
     .kitten {
         content:url(https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png);
+	background-image:url(https://user-images.githubusercontent.com/23199807/30566036-42164454-9c7f-11e7-9006-c317e253d944.gif);
     }
 }
 
 @media only screen and (max-width: 400px) {
     .kitten {
         content:url(https://user-images.githubusercontent.com/23199807/30504322-eac0f3f6-9a22-11e7-8b5e-3068638be92d.gif);
+	background-image:url(https://user-images.githubusercontent.com/23199807/30566036-42164454-9c7f-11e7-9006-c317e253d944.gif);
     }
 }
