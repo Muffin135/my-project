@@ -13,6 +13,9 @@ body {
 @media only screen and (max-width: 800px) {
     .kitten {
         content:url(https://user-images.githubusercontent.com/23199807/30504250-8074507e-9a22-11e7-9623-d7cc6fadea92.png);
+	}
+	
+	body {
 	background-image:url(https://user-images.githubusercontent.com/23199807/30566036-42164454-9c7f-11e7-9006-c317e253d944.gif);
     }
 }
