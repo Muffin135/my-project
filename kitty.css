@@ -20,7 +20,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 7500px) {
+@media only screen and (max-width: 750px) {
     .kitten {
         content:url(https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png);
     }
