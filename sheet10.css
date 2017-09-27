@@ -9,36 +9,36 @@ body {
   height: 10vh;
   background-color: black;
   float: left;
-  font-family: impact;
+  font-family: Lobster;
   color: white;
   font-size: 300%;
   text-align: center;
   letter-spacing: 0.25em;
+  margin-top: 2%;
 }
 
-.halfbodymedium {
-    margin-top: 5%;
-    margin-left: 8%;
-    height: 75%;
-    width: 8%;
-    text-align:center;
-    float:left;   
+.menucontainer {
+  min-width: 90vw;
+  min-height: 80vh;
+ 
+  display: flex; 
 }
 
-.tabtitle {
-  margin-left: 5%;
-  font-family: Calibri;
-  letter-spacing: 0.25em;
-  font-size: 2em;
+.menutab {
+  background-color: grey;
+  width: 9%;
+  height: 75%;
+  margin-left: 8.5%;
+  margin-top: 3%;
 }
 
 #one {
     /* Old browsers */
     background: linear-gradient(to right, black 50%, #F52F18 50%);
-    background-size: 200% 100%;
+    background-size: 200% 10%;
     background-position:left bottom;
     transition:all 1s ease;
-    border-right: 3em solid #F52F18; 
+    border-right: 1.5em solid #F52F18; 
 }
 
 #one:hover {
@@ -48,10 +48,10 @@ body {
 #two {
     /* Old browsers */
     background: linear-gradient(to right, black 50%, #F5A021 50%);
-    background-size: 200% 100%;
+    background-size: 200% 10%;
     background-position:left bottom;
     transition:all 1s ease;
-    border-right: 3em solid #F5A021; 
+    border-right: 1.5em solid #F5A021; 
 }
 
 #two:hover {
@@ -60,11 +60,11 @@ body {
 
 #three {
     /* Old browsers */
-    background: linear-gradient(to right, black 50%, #55F67B  50%);
-    background-size: 200% 100%;
+    background: linear-gradient(to right, black 50%, #55F67B 50%);
+    background-size: 200% 10%;
     background-position:left bottom;
     transition:all 1s ease;
-    border-right: 3em solid #55F67B ; 
+    border-right: 1.5em solid #55F67B; 
 }
 
 #three:hover {
@@ -74,10 +74,10 @@ body {
 #four {
     /* Old browsers */
     background: linear-gradient(to right, black 50%, #4CBABC 50%);
-    background-size: 200% 100%;
+    background-size: 200% 10%;
     background-position:left bottom;
     transition:all 1s ease;
-    border-right: 3em solid #4CBABC; 
+    border-right: 1.5em solid #4CBABC; 
 }
 
 #four:hover {
@@ -87,10 +87,10 @@ body {
 #five {
     /* Old browsers */
     background: linear-gradient(to right, black 50%, #BB3187 50%);
-    background-size: 200% 100%;
+    background-size: 200% 10%;
     background-position:left bottom;
     transition:all 1s ease;
-    border-right: 3em solid #BB3187; 
+    border-right: 1.5em solid #BB3187; 
 }
 
 #five:hover {
