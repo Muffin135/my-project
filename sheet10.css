@@ -24,74 +24,51 @@ body {
 }
 
 .menutab {
-  background-color: grey;
+  background-color: white;
   width: 9%;
   margin-left: 8.5%;
   margin-top: 3%;
   border-radius: 1em;
+  box-shadow: inset 20em 0 0 0 black;
+  transition:all 1s ease;
+}
+
+.menutab:hover {
+  box-shadow: inset 0em 0 0 0 black;
 }
 
 #one {
     /* Old browsers */
-    background: linear-gradient(to right, black 50%, #F52F18 50%);
-    background-size: 200% 10%;
-    background-position:left bottom;
-    transition:all 1s ease;
+    background-image: url("https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png");
     border-right: 1.5em solid #F52F18; 
 }
 
-#one:hover {
-   background-position:right bottom;
-}
+
 
 #two {
     /* Old browsers */
-    background: linear-gradient(to right, black 50%, #F5A021 50%);
-    background-size: 200% 10%;
-    background-position:left bottom;
-    transition:all 1s ease;
+    background-image: url("https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png"); 
     border-right: 1.5em solid #F5A021; 
 }
 
-#two:hover {
-   background-position:right bottom;
-}
 
 #three {
     /* Old browsers */
-    background: linear-gradient(to right, black 50%, #55F67B 50%);
-    background-size: 200% 10%;
-    background-position:left bottom;
-    transition:all 1s ease;
+    background-image: url("https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png"); 
     border-right: 1.5em solid #55F67B; 
 }
 
-#three:hover {
-   background-position:right bottom;
-}
 
 #four {
     /* Old browsers */
-    background: linear-gradient(to right, black 50%, #4CBABC 50%);
-    background-size: 200% 10%;
-    background-position:left bottom;
-    transition:all 1s ease;
+    background-image: url("https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png"); 
     border-right: 1.5em solid #4CBABC; 
 }
 
-#four:hover {
-   background-position:right bottom;
-}
 
 #five {
     /* Old browsers */
-    background: linear-gradient(to right, black 50%, #BB3187 50%);
-    background-size: 200% 10%;
-    background-position:left bottom;
-    transition:all 1s ease;
+    background-image: url("https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png"); 
     border-right: 1.5em solid #BB3187; 
 }
 
-#five:hover {
-   background-position:right bottom;
-}
