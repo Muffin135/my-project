@@ -40,7 +40,6 @@ body {
 #one {
     /* Old browsers */
     background-image: url("https://user-images.githubusercontent.com/23199807/31148529-cf063676-a841-11e7-8b7f-45b36784c633.PNG");
-    background-size: 100% 100%;
     border-right: 1.5em solid #F52F18; 
 }
 
@@ -49,7 +48,6 @@ body {
 #two {
     /* Old browsers */
     background-image: url("https://user-images.githubusercontent.com/23199807/31157872-db9d7d46-a872-11e7-814a-0e65eeae09c3.PNG"); 
-    background-size: 100% 100%;
     border-right: 1.5em solid #F5A021; 
 }
 
@@ -57,7 +55,6 @@ body {
 #three {
     /* Old browsers */
     background-image: url("https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png"); 
-    background-size: 100% 100%;
     border-right: 1.5em solid #55F67B; 
 }
 
@@ -65,7 +62,6 @@ body {
 #four {
     /* Old browsers */
     background-image: url("https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png"); 
-    background-size: 100% 100%;
     border-right: 1.5em solid #4CBABC; 
 }
 
@@ -73,7 +69,6 @@ body {
 #five {
     /* Old browsers */
     background-image: url("https://user-images.githubusercontent.com/23199807/30504292-bd49cb14-9a22-11e7-9f8f-a3a84e6c46c0.png"); 
-    background-size: 100% 100%;
     border-right: 1.5em solid #BB3187; 
 }
 
