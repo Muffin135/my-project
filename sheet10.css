@@ -1,46 +1,70 @@
+/* Basic shape of the screen, fits almost to edges */ 
 body {
+ /* The dimensions that start with 'min-' mean minimum measurement. In other words,
+ the website can't go smaller than the size described */
   min-width: 90vw;
   min-height: 90vh;
+/* In the body, the dimension are given in 'vw' and 'vh' which mean screen height and width. So, since they're
+each 90, it means that the website with always be at least 90% of the browser window */
   background-color: white;
 }
 
+/* Hides the nav arrows for the mobile version until it's ready */
 a {
 	display: none;
 }
 
+/* Title bar */
 .fullwidthtitle {
+/* 'width: 100%' means that the title will always take up 100% of the space avaible for its width */
   width: 100%;
   height: 10vh;
   background-color: black;
+/* 'Float' makes sure the title will always move to the left side of the screen if it can */
   float: left;
   font-family: Lobster;
   color: white;
   font-size: 300%;
+/* Centers the font in the middle of the rectangle */
   text-align: center;
   letter-spacing: 0.25em;
+/* Puts a 2% gap between the title and the top of the page */
   margin-top: 2%;
 }
 
+/*Flex container that display the elements inside arrange inline (side-by-side) and makes the 
+width and height change to be at least 90% of the browser's width and 80% of its height*/
 .menucontainer {
   min-width: 90vw;
   min-height: 80vh;
   display: flex; 
 }
 
+/* Basic shape of a menutab in the desktop version */
 .menutab {
   background-color: white;
+  /* Width for the menu tab is fixed at 9% on the desktop */
   width: 9%;
+  /* All the elements on the desktop version take up about a 1/10 of the screen, 
+  but 8.25% give is some breathing room just in case */
   margin-left: 8.5%;
   margin-top: 3%;
   border-radius: 1em;
+  /* The box shadow in the menu tab is the black canvas that covers the tab at first. The 20em on the 
+  first coordinate makes the black cover strech over the div all the way to the border L-to-R */
   box-shadow: inset 20em 0 0 0 black;
+  /* Tells the box shadow how to move. In this case, move away slowly in 1 second */
   transition:all 1s ease;
 }
 
 .menutab:hover {
+  /* This means this action will affect the menutab when it is  hovered by the mouse.
+     By setting the left coordinate back to 0 when we hover over the menu tab, we make 
+     the black cover disappear, disappearing according to the animation. */
   box-shadow: inset 0em 0 0 0 black;
 }
 
+/*  The format for the text that goes in the menu tab */
 .innertext {
 	height: 10%;
 	width: 100%;
@@ -51,9 +75,8 @@ a {
 }
 
 #one {
-    /* Old browsers */
     background-image: url("https://user-images.githubusercontent.com/23199807/31148529-cf063676-a841-11e7-8b7f-45b36784c633.PNG");
-	background-image: 100% 100%;
+    /* makes a border on the right side, about 15% of the width of the original in a pastel color */
     border-right: 1.5em solid #F52F18; 
 }
 
@@ -84,8 +107,17 @@ a {
     border-right: 1.5em solid #BB3187; 
 }
 
+/* This breakpoint tells the computer where the mobile version kicks in. '@media only screen' meanse the browser window,
+and 'max-width: 415px' is the condition for the action. So, it basically says that, 'when browser window size gets to a total 
+width of 415 pixels, do this */
+
 @media only screen and (max-width: 415px) {
 
+/* In order to hide the mobile version, the styling for the mobile has a 'B' next to it to show that it is for
+the mobile version. In this case, since the 'B'/Mobile version come after the breakpoint, the mobile will only 
+kick in after the breakpoint does */
+
+/* Most of the mobile styling is the same as the desktop version */
 .fullwidthtitleB {
   width: 100%;
   height: 10vh;
@@ -105,14 +137,18 @@ a {
   display: flex; 
 }
 
+/* The only difference is the menu tab */
 .menutabB {
   background-color: white;
   margin-top: 3%;
   border-radius: 1em;
   box-shadow: inset 20em 0 0 0 black;
   transition:all 1s ease;
+  /* Since only one menu tab will be shown at a time, the margins on the left and the right are set to 
+  to get it centered on the screen */
   margin-right: auto;
   margin-left: auto;
+  /* Also, the width is 60% of the screen because it fits the smaller screen better */
   width: 60%;
 }
 
@@ -128,6 +164,7 @@ a {
 	margin-top: 15%;
 	margin-left: 10%;
 	display: inline;
+	/* Also, the text inside clips sometimes in the mobile, so it's z-index is -1 so it appears farther from the front */
 	z-index: -1;
 }
 
@@ -167,6 +204,8 @@ a {
     border-right: 1.5em solid #BB3187; 
 }
 
+/* This basically just shows the mobile styling for the slideshow. It's already preprogrammed 
+via Bootstrap, the dimension just need to be set beforehand */
 #myCarousel {
 	width: 100%;
 	height: 100%;
@@ -186,7 +225,7 @@ a {
 	display: inline;
 }
 
-
+/* This just hides the desktop styling so it doesn't interfere */
 .menucontainer {
   display: none;
 }
