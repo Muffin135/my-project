@@ -22,6 +22,7 @@ a {
   background-color: black;
 /* 'Float' makes sure the title will always move to the left side of the screen if it can */
   float: left;
+/* Font for the title */
   font-family: Lobster;
   color: white;
   font-size: 300%;
@@ -68,6 +69,7 @@ width and height change to be at least 90% of the browser's width and 80% of its
 .innertext {
 	height: 10%;
 	width: 100%;
+	/* Font for the text in the menu tab */
 	font-family: Calibri;
 	font-size: 1.5em;
 	margin-top: 15%;
