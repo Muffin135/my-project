@@ -2,52 +2,51 @@
   width: 95vw;
   height: 95vh;
   background-color: grey;
+  text-align: center;
 }
 
-.container {
- height: 100%;
+.container1 {
+ height: 30%;
  width: 100%;
  color: blue;
  font-family: Impact, Calibri;
- text-align: center;
+ display: flex;
 }
 
-.oneblock {
+.container2 {
+ height: 70%;
+ width: 100%;
+ color: blue;
+ font-family: Impact, Calibri;
+ display: flex;
+}
+
+.block {
+  height: 100%;
+}
+
+#one {
  background-color: yellow;
- width: 50%;
- height: 30%;
- display: inline-block;
- float: left;
+ width: 70%;
 }
 
-.twoblock {
+#two {
  background-color: pink;
- width: 30%;
- height: 30%;
- display: inline-block;
- 
-}
-
-.threeblock {
- background-color: orange;
  width: 20%;
- height: 30%;
- display: inline-block; 
- float: right;
 }
 
-.fourblock {
-  background-color: white;
-  width: 50%;
-  height: 70%;
-  display: inline-block; 
-  float: left;
+#three {
+ background-color: orange;
+ width: 10%;
 }
-.fiveblock {
+
+#four {
+  background-color: white;
+  width: 70%;
+}
+
+#five {
   background-color: black;
-  width: 50%;
-  height: 70%;
-  display: inline-block; 
-  float: right;
+  width: 30%;
 }
 
