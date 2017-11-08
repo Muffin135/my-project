@@ -225,4 +225,33 @@ body {
   align-items: center;
 }
 
+@media only screen and (max-width: 800px) {
+	.pageinner {
+		width: 100%;
+	}
+	
+	.pagetextcaption {
+		font-size: small;
+		letter-spacing: .2em;
+	}
+	
+	.tabcontenttext1 {
+		font-size: small;
+		letter-spacing: .05em;
+	}
+
+	.tabcontenttext2 {
+		font-size: x-small;
+		letter-spacing: .05em;
+	}
+	
+	.tabcontenttext3 {
+		font-family: Calibri;
+		font-size: small;
+		letter-spacing: .05em;
+		margin-left: .25em;
+	}
+}
+
+
 
