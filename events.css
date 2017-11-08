@@ -1,0 +1,228 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  min-height: 50vh;
+  min-width: 50vw;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  width: 99%;
+  height: 99%;
+}
+
+.logobar {
+ width: 100%;
+ height: 10%;
+ border-bottom: .1em solid white;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.logotitle {
+ width: 40%;
+ height: 100%;
+ background-color: white;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.logo {
+ width: 20%;
+ height: 80%;
+ background-color: white;
+ transition: 1s ease all;
+ background-image: url("https://user-images.githubusercontent.com/23199807/31148529-cf063676-a841-11e7-8b7f-45b36784c633.PNG");
+ background-repeat:no-repeat;
+ background-size:contain;
+ background-position: center; 
+}
+
+.logotitletext {
+ font-family: Impact;
+ font-style: Italic;
+ letter-spacing: .5em
+ background-color: yellow;
+}
+
+.menubar {
+ width: 100%;
+ height: 5%;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.menutab {
+ width: calc(100%/5);
+ height: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: white;
+ transition: .5s ease all;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ border: .1em solid black;
+}
+
+.menutab:hover {
+  box-shadow: .75em .75em black;
+  background-color: yellow;
+}
+
+.menutabtext {
+  font-weight: 550;
+  font-family: Calibri;
+}
+
+.carouselcontainerouter {
+  height: 85%; 
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageinner {
+  height: 85%; 
+  width: 95%;
+  border: .1em solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.contenttitle {
+  width: 100%;
+  height: 25%;
+  border-bottom: .1em solid black;
+}
+
+.header {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: .1em solid black;
+}
+
+.caption {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagetexttitle {
+  font-family: Calibri;
+  font-size: large;
+  font-weight: 699;
+  letter-spacing: .4em;
+}
+
+.pagetextcaption {
+  font-family: Calibri;
+  font-size: small;
+  font-weight: 500;
+  letter-spacing: .4em;
+}
+
+.contentbody {
+  width: 100%;
+  height: 75%;
+  overflow: scroll; 
+}
+
+.tabbody {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: .1em solid black;
+}
+
+.tabimage {
+  width: 10%;
+  height: 100%;
+  background-image: url("http://themostdefinitely.com/wp-content/uploads/2015/06/giorgio.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tabcontent {
+  width: 70%;
+  height: 100%;
+  border-right: .1em solid black;
+}
+
+.tabcontenttop {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.tabcontentbottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.tabcontenttext1 {
+  font-family: Calibri;
+  font-size: medium;
+  letter-spacing: .1em;
+  margin-left: .75em;
+}
+
+.tabcontenttext2 {
+  font-family: Calibri;
+  font-size: small;
+  letter-spacing: .1em;
+  margin-left: .75em;
+}
+
+.tabcontenttext3 {
+  font-family: Calibri;
+  font-size: medium;
+  letter-spacing: .1em;
+  margin-left: .75em;
+}
+
+.tabcontenttext3:hover {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    0%   {box-shadow: inset 0em 0 0 0 yellow;
+          text-decoration: none;}
+    100% {box-shadow: inset 20em 0 0 0 yellow;
+          text-decoration: underline;}
+}
+
+.tabjavalink {
+  width: 19%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
