@@ -15,6 +15,8 @@ body {
 .container1 {
   width: 99%;
   height: 99%;
+  margin: 0;
+  padding: 0;
 }
 
 .logobar {
@@ -51,7 +53,8 @@ body {
 .logotitletext {
  font-family: Impact;
  font-style: Italic;
- letter-spacing: .5em
+ font-size: 1.75em;
+ letter-spacing: .5em;
  background-color: yellow;
 }
 
@@ -83,6 +86,7 @@ body {
 .menutabtext {
   font-weight: 550;
   font-family: Calibri;
+  font-size: 1.1em;
 }
 
 .carouselcontainerouter {
@@ -129,16 +133,16 @@ body {
 
 .pagetexttitle {
   font-family: Calibri;
-  font-size: large;
+  font-size: 1.5em;
   font-weight: 699;
   letter-spacing: .4em;
 }
 
 .pagetextcaption {
   font-family: Calibri;
-  font-size: small;
+  font-size: 1.25em;
   font-weight: 500;
-  letter-spacing: .4em;
+  letter-spacing: .5em;
 }
 
 .contentbody {
@@ -186,7 +190,7 @@ body {
 
 .tabcontenttext1 {
   font-family: Calibri;
-  font-size: medium;
+  font-size: 1em;
   letter-spacing: .1em;
   margin-left: .75em;
 }
@@ -225,31 +229,73 @@ body {
   align-items: center;
 }
 
+.mobile {
+  	display: none;
+}
+
 @media only screen and (max-width: 800px) {
+	
+  .container1 {
+  	width: 100%;
+		height: 100%;
+		border: none;
+	}
+	
 	.pageinner {
 		width: 100%;
 	}
 	
+	.mobile {
+		font-family: Impact;
+		letter-spacing: 1em;
+		color: black;
+	}
+	
+	.menubar {
+		width: 100%;
+		height: 10%;
+		border-top: .1em solid black;
+		border-bottom: .1em solid black;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.menutab {
+		display: none;
+	}
+	
+	.carouselcontainerouter {
+ 		 height: 75%; 
+	}
+	
 	.pagetextcaption {
-		font-size: small;
-		letter-spacing: .2em;
+		font-size: 1em;
+		letter-spacing: .1em;
+	}
+
+	.tabbody {
+		width: 95%;
+		height: calc(100%/3);
 	}
 	
 	.tabcontenttext1 {
-		font-size: small;
-		letter-spacing: .05em;
+		font-size: .7em;
+		letter-spacing: 0em;
+		margin-left: .15em;
 	}
 
 	.tabcontenttext2 {
-		font-size: x-small;
-		letter-spacing: .05em;
+		font-size: .7em;
+		letter-spacing: 0em;
+		margin-left: .15em;
 	}
 	
 	.tabcontenttext3 {
-		font-family: Calibri;
-		font-size: small;
-		letter-spacing: .05em;
-		margin-left: .25em;
+		font-size: .7em;
+		margin-left: 1.25em;
 	}
+	
 }
 
